@@ -1,10 +1,5 @@
-# Predicting-University-Admissions
-**Task Details**
+# Bitcoin Historical Data
+**Content**
 
-Using the supplied predictive variables (GRE score, TOEFL score, University Rating, etc) to predict the likelihood of admission of a new candidate.
-
-**Evaluation Criteria**
-
-The best model should be the one that evaluates to have the lowest RMSE overall, and please indicate the error you get on validation set containing the last 100 observations.
-
-[Here is a link to the dataset](https://www.kaggle.com/mohansacharya/graduate-admissions/tasks?taskId=6)
+CSV files for select bitcoin exchanges for the time period of Jan 2012 to September 2020, with minute to minute updates of OHLC (Open, High, Low, Close), Volume in BTC and indicated currency, and weighted bitcoin price. Timestamps are in Unix time. Timestamps without any trades or activity have their data fields filled with NaNs. If a timestamp is missing, or if there are jumps, this may be because the exchange (or its API) was down, the exchange (or its API) did not exist, or some other unforeseen technical error in data reporting or gathering. 
+[Here is a link to the dataset](https://www.kaggle.com/mczielinski/bitcoin-historical-data)
